@@ -1,0 +1,7 @@
+:root {
+  --font-sans-serif: 'Figtree', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans-serif);
+}
