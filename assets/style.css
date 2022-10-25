@@ -1,7 +1,64 @@
 :root {
   --font-sans-serif: 'Figtree', sans-serif;
+  --color-turquoise: #3d94a0;
+  --color-tan: #e8dfd8;
 }
 
 body {
   font-family: var(--font-sans-serif);
+}
+
+.highlight {
+  color: var(--color-turquoise);
+}
+
+#first {
+  background-color: var(--color-tan);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#first div {
+  max-width: 400px;
+}
+
+#first h3 {
+  font-size: 40px;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+#first img {
+  max-height: 320px;
+  width: auto;
+}
+
+#who-we-are img {
+  margin: auto;
+}
+
+#who-we-are p {
+  text-align: center;
+}
+
+.section {
+  padding: 40px;
+}
+
+.section h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section p {
+  margin-bottom: 17px;
 }
