@@ -62,3 +62,31 @@ body {
 .section p {
   margin-bottom: 17px;
 }
+
+#what-we-do-together {
+  background-color: var(--color-tan);
+}
+
+.divider-img {
+  width: 100%;
+}
+
+#footer {
+  background-color: var(--color-tan);
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+#footer img {
+  max-width: 400px;
+  margin-right: 50px;
+}
+
+.footer-text {
+  max-width: 385px;
+}
+
+.footer-text p {
+  margin-bottom: 20px;
+}
