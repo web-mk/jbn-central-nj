@@ -67,8 +67,69 @@ body {
   background-color: var(--color-tan);
 }
 
+#what-we-do-together > img {
+  margin: auto;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  max-width: 950px;
+  margin: auto;
+}
+
+.single-highlight {
+  background-color: white;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.svg-container {
+  background: var(--color-turquoise);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+.svg-container svg {
+  max-width: 80%;
+  max-height: 110px;
+}
+
+.highlight-text {
+  padding: 20px;
+  text-align: center;
+}
+
+#together-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#together-text p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
 .divider-img {
   width: 100%;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: space-around;
+  max-width: 700px;
+  margin: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: space-around;
+  max-width: 700px;
+  margin: auto;
 }
 
 #footer {
