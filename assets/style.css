@@ -224,3 +224,46 @@ body p {
     font-size: 25px;
   }
 }
+
+
+.directory-section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+}
+
+.directory-section .company {
+  font-size: 19px;
+  color: var(--color-turquoise);
+  font-weight: bold;
+}
+
+.directory-section .name {
+  font-weight: bold;
+}
+
+.single-member {
+  flex: 1 40%;
+  margin: 30px;
+}
+
+.member-title {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-turquoise);
+}
+
+.member-title:before {
+  content: '';
+  display: block;
+  height: 70px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./flower-icon.png');
+}
+
+#first + .member-title {
+  margin-top: 50px;
+}
