@@ -8,6 +8,10 @@ body {
   font-family: var(--font-sans-serif);
 }
 
+body p {
+  font-size: 17px;
+}
+
 .highlight {
   color: var(--color-turquoise);
 }
@@ -118,25 +122,31 @@ body {
   width: 100%;
 }
 
-.cta-buttons {
-  display: flex;
-  justify-content: space-around;
-  max-width: 700px;
-  margin: auto;
+#location-info {
+  text-align: center;
 }
 
 .cta-buttons {
   display: flex;
   justify-content: space-around;
   max-width: 700px;
-  margin: auto;
+  margin: 60px auto 30px;
+}
+
+.cta-buttons a {
+  background: var(--color-turquoise);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 40px;
 }
 
 #footer {
   background-color: var(--color-tan);
   display: flex;
   align-items: center;
-  font-size: 40px;
 }
 
 #footer img {
@@ -149,5 +159,6 @@ body {
 }
 
 .footer-text p {
+  font-size: 40px;
   margin-bottom: 20px;
 }
