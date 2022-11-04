@@ -186,6 +186,25 @@ body p {
   }
 }
 
+#home-photos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 100px auto 80px;
+}
+
+#home-photos img {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+@media (max-width: 650px) {
+  #home-photos img {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
 #footer {
   background-color: var(--color-tan);
   display: flex;
