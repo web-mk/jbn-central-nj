@@ -38,15 +38,16 @@ body p {
   #first h3 {
     text-align: center;
   }
-  #first img {
+  #first svg {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-#first img {
-  max-height: 320px;
+#first svg {
   width: auto;
+  max-width: 285px;
+  height: auto;
 }
 
 @media (max-width: 650px) {
